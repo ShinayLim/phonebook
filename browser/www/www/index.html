@@ -10,16 +10,16 @@
   <body>
     <div class="app">
       <h1>Phonebook App</h1>
-      <div>
-        <input type="text" id="name" placeholder="Name" />
-        <input type="text" id="phone" placeholder="Phone" />
+        <input type="text" id="name" placeholder="Name" class="name_input" />
+        <br></br>
+        <input type="number" id="phone" placeholder="Phone" class="phone_input" />
+        <BR></BR>
         <button onclick="addContact()">Add Contact</button>
-      </div>
-      <div>
-        <h2>Contacts</h2>
+        <h1>Contacts</h1>
         <ul id="contactList"></ul>
+        <button onclick="saveContacts()">Save Contacts</button>
       </div>
-      <button onclick="saveContacts()">Save Contacts</button>
+    
     </div>
   </body>
 </html>
