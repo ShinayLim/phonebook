@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #212121;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+}
+
+.app {
+  padding: 20px;
+  margin: 5px;
+}
+
+/* From Uiverse.io by Praashoo7 */ 
+input {
+  margin: 1px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 15px;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+  width: 100%;
+}
+
+input::placeholder {
+  font-size: large;
+}
+input:focus {
+  background-color: white;
+  transform: scale(1.05);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+button {
+  font-size: large;
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #646464;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #646464;
+  box-shadow: 0 0 20px #646464;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #646464;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: large;
+}
